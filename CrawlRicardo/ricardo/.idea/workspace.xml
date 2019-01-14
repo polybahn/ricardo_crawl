@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a777d436-f233-4dbe-b0e0-bb710f8a0dad" name="Default Changelist" comment="" />
+    <list default="true" id="a777d436-f233-4dbe-b0e0-bb710f8a0dad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ricardo/spiders/china_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="44" column="62" lean-forward="true" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="62" />
+            <state relative-caret-position="534">
+              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -29,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/china-2019-01-08.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="412">
-              <caret line="332" column="57" lean-forward="true" selection-start-line="332" selection-start-column="57" selection-end-line="332" selection-end-column="57" />
+              <caret line="332" column="57" selection-start-line="332" selection-start-column="57" selection-end-line="332" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -49,6 +51,9 @@
       <find>ntike-chinesische-vasen</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -62,6 +67,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1200" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -144,12 +150,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546959817687</updated>
-      <workItem from="1546959818768" duration="8613000" />
+      <workItem from="1546959818768" duration="9434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8613000" />
+    <option name="totallyTimeSpent" value="9434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="823" width="1920" height="1200" extended-state="6" />
@@ -161,7 +167,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.32925683" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32925683" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33050048" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925683" />
@@ -194,14 +200,14 @@
     <entry file="file://$PROJECT_DIR$/china-2019-01-08.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
-          <caret line="332" column="57" lean-forward="true" selection-start-line="332" selection-start-column="57" selection-end-line="332" selection-end-column="57" />
+          <caret line="332" column="57" selection-start-line="332" selection-start-column="57" selection-end-line="332" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ricardo/spiders/china_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="44" column="62" lean-forward="true" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="62" />
+        <state relative-caret-position="534">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
