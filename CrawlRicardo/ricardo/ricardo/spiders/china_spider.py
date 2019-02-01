@@ -15,8 +15,11 @@ class QuotesSpider(scrapy.Spider):
 
 
     def start_requests(self):
-        BASE_URL = 'https://www.ricardo.ch/de/c/antiquites-et-arts-38399/chinesisch'
-        urls = [BASE_URL+'?page='+str(i) for i in range(1,20)]
+        BASE_URLs = ['https://www.ricardo.ch/de/c/antiquites-et-arts-38399/chinesisch', 
+        			 'https://www.ricardo.ch/de/c/antiquitaeten-und-kunst-38399/asiatika', 
+        			 'https://www.ricardo.ch/de/c/antiquitaeten-und-kunst-38399/japanisch',
+        			 ]
+        urls = [BASE_URL+'?page='+str(i) for i in range(1,30) for BASE_URL in BASE_URLs]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
@@ -35,6 +38,7 @@ class QuotesSpider(scrapy.Spider):
                 new_items.append(val)
                 webbrowser.open(val[0])
                 saved_items[key] = val
+                print(1)
 
         filename = 'china-'+datetime.datetime.today().strftime('%Y-%m-%d')+'.txt'
         with open(filename, 'a') as f:
